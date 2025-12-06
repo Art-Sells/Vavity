@@ -39,3 +39,7 @@ Every failed new psychological monetary invention was human dependent:
 
 - human trust → issuance → risk
 - human hype → exposure → greater collapse potential
+
+#### Note for future innovators and builders:
+
+Psychological monetary inventions succeed because of strict bounds, rules and regularions that prevent hyperinflation, over-valuations and unbounded mania/optimism.
