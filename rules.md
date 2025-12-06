@@ -1,31 +1,25 @@
 # Rules of Vavity
 
-- **Machines handle the rules, not humans.**
+- **The autonomous system handle the rules, not humans.**
 
 ## Why Previous Systems Failed
 
 Every failed new psychological monetary invention was human dependent:
 
-- human trust → human issuance → human risk
-- human hype → human exposure → greater collapse potential
+- human trust → issuance → risk
+- human hype → exposure → greater collapse potential
 
 ## Why Vavity Succeeds
 
-- Removes human psychology out of financial systems.
+- Not dependent on human psychology.
 
 ## Vavity's Autonomous Protections
 
-Humans don't control the environment.
+We don't control the environment, alter the system or introduce volatility thus our panic doesn't affect others.
 
-Human emotions don't alter the system.
+Our only contribution is: **deciding whether to enter or wait.**
 
-Human fears don't introduce volatility.
-
-Human panic doesn't affect others.
-
-Human's only contribution is: **deciding whether to enter or wait.**
-
-Once inside, the system protects humans from their own worst instincts by removing:
+Once inside, the system protects us from our own worst instincts by removing:
 
 - loss realization
 - fight-or-flight pressures
