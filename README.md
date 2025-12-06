@@ -1,4 +1,4 @@
-<img src="https://github.com/Art-Sells/Arells/blob/test/Art/General/Vavity-Logo.png" width="400px"> 
+<img src="https://github.com/Art-Sells/Arells/blob/test/Art/General/Vavity-Logo.png" width="500px"> 
 
 ## VAVITY
 
