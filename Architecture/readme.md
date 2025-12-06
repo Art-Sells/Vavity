@@ -59,7 +59,7 @@ If you import your investment asset at an external asset price per token at $60k
       - `acVactTaa` = 0.01944
 
 
-### 4. External asset price rises: $65,000
+### 3. External asset price rises: $65,000
 
 - **Results:**
   - **VAPA** = $65,000.
