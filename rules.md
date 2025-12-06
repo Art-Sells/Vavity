@@ -33,9 +33,16 @@ prevents:
 - Price cannot fall below imports/purchases
 - There is no mechanic that encourages runaway behavior (price hyper-inflation)
 
-## Why Previous Systems Failed
+## Why Previous Bear Market Obfuscating Financial Architectures Failed
 
-Every failed new psychological monetary invention was human dependent:
+Every failed monetary invention created to eliminate (or limit) investment losses were human dependent:
 
 - human trust → issuance → risk
 - human hype → exposure → greater collapse potential
+
+Vavity is:
+
+- **autonomous** — technology enforces the rules, not human judgment
+- **bounded** — prices cannot exceed external reference or fall below imports
+- **self-limiting** — no endogenous loops that spiral out of control
+- **non-manipulable** — irrational behavior cannot damage the architecture
