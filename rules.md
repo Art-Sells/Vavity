@@ -2,17 +2,6 @@
 
 - **The autonomous system handle the rules, not humans.**
 
-## Why Previous Systems Failed
-
-Every failed new psychological monetary invention was human dependent:
-
-- human trust → issuance → risk
-- human hype → exposure → greater collapse potential
-
-## Why Vavity Succeeds
-
-- Not dependent on human psychology.
-
 ## Vavity's Autonomous Protections
 
 We don't control the environment, alter the system or introduce volatility thus our panic doesn't affect others.
@@ -44,3 +33,13 @@ prevents:
 - Price cannot fall below imports/purchases
 - There is no mechanic that encourages runaway behavior (price hyper-inflation)
 
+## Why Previous Systems Failed
+
+Every failed new psychological monetary invention was human dependent:
+
+- human trust → issuance → risk
+- human hype → exposure → greater collapse potential
+
+#### Note for future innovators and builders:
+
+Psychological monetary inventions succeed because of strict bounds, rules and regularions that prevent hyperinflation, over-valuations and unbounded mania/optimism.
