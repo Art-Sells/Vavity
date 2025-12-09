@@ -1,0 +1,212 @@
+.main {
+  min-height: 100vh;
+  padding: 4rem 3rem 2.5rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #000000;
+  color: #6a6a6a;
+  position: relative;
+}
+
+.main::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/Vavity-Background.png');
+  background-size: auto 1600px;
+  background-repeat: no-repeat;
+  background-position: -775px center;
+  background-attachment: fixed;
+  filter: brightness(0.18) contrast(1.2);
+  opacity: 0.35;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.main::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/Vavity-Background.png');
+  background-size: auto 1600px;
+  background-repeat: no-repeat;
+  background-position: calc(100% + 795px) center;
+  background-attachment: fixed;
+  filter: brightness(0.18) contrast(1.2);
+  opacity: 0.35;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.contentWrapper {
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.backLink {
+  display: block;
+  margin-bottom: 2rem;
+  text-align: center;
+  width: 100%;
+  transition: opacity 0.2s;
+}
+
+.backLink:hover {
+  opacity: 0.8;
+}
+
+.backIcon {
+  object-fit: contain;
+  max-width: 40px;
+  height: auto;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #C0C0C0 !important;
+}
+
+.list {
+  list-style: none;
+  margin-bottom: 2rem;
+  padding-left: 0;
+}
+
+.list li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #b0b0b0 !important;
+}
+
+.list li strong {
+  color: #c0c0c0 !important;
+}
+
+.section {
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.section::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #C0C0C0;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.sectionTitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+  color: #C0C0C0 !important;
+}
+
+h2.sectionTitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 0;
+  color: #C0C0C0 !important;
+}
+
+.paragraph {
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+  font-size: 0.85rem;
+  color: #b0b0b0;
+}
+
+.paragraph strong {
+  color: #b0b0b0 !important;
+}
+
+.bulletList {
+  list-style: disc;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.bulletList li {
+  margin-bottom: 0.5rem;
+  line-height: 1.0;
+  font-size: 0.8rem;
+  color: #b0b0b0;
+}
+
+.bulletList li strong {
+  color: #b0b0b0 !important;
+}
+
+.list strong,
+.paragraph strong,
+.bulletList strong,
+.bulletList li strong {
+  color: #b0b0b0 !important;
+}
+
+/* Ensure all strong tags in rules page are brighter */
+.container strong {
+  color: #b0b0b0 !important;
+}
+
+.container .sectionTitle,
+.container h2.sectionTitle {
+  color: #C0C0C0 !important;
+}
+
+.container .paragraph strong {
+  color: #b0b0b0 !important;
+}
+
+.container .bulletList li strong {
+  color: #b0b0b0 !important;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  align-items: center;
+}
+
+.githubLink {
+  display: inline-block;
+  padding: 1.25rem 2rem;
+  background-color: transparent;
+  color: #C0C0C0;
+  border: 1px solid #C0C0C0;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: opacity 0.2s;
+  text-align: center;
+}
+
+.githubLink:hover {
+  opacity: 0.8;
+}
+
