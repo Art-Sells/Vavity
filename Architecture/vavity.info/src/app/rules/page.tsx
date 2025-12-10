@@ -1,10 +1,50 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
+import { useEffect, useState } from 'react'
 import styles from './page.module.css'
 
 export default function Rules() {
+  const [showModal, setShowModal] = useState(true)
+  const [isClosing, setIsClosing] = useState(false)
+  const [iconClosing, setIconClosing] = useState(false)
+
+  useEffect(() => {
+    const iconFadeOutTimer = setTimeout(() => {
+      setIconClosing(true)
+    }, 500)
+
+    const fadeOutTimer = setTimeout(() => {
+      setIsClosing(true)
+    }, 1000)
+
+    const closeTimer = setTimeout(() => {
+      setShowModal(false)
+    }, 2000)
+
+    return () => {
+      clearTimeout(iconFadeOutTimer)
+      clearTimeout(fadeOutTimer)
+      clearTimeout(closeTimer)
+    }
+  }, [])
+
   return (
     <main className={styles.main}>
+      {showModal && (
+        <div className={`${styles.modal} ${isClosing ? styles.modalClosing : ''}`}>
+          <div className={styles.modalContent}>
+            <Image
+              src="/images/Vavity-Icon-Ivory.png"
+              alt="Vavity Icon"
+              width={40}
+              height={40}
+              className={`${styles.modalIcon} ${iconClosing ? styles.modalIconClosing : ''}`}
+            />
+          </div>
+        </div>
+      )}
       <div className={styles.container}>
         <Link href="/" className={styles.backLink}>
           <Image
@@ -20,7 +60,7 @@ export default function Rules() {
           <h1 className={styles.title}>The Rules of Vavity</h1>
           
           <p className={styles.paragraph}>
-            The autonomous system handle the rules, not humans.
+            The autonomous system handles the rules, not humans.
           </p>
           
           <section className={styles.section}>
@@ -35,7 +75,7 @@ export default function Rules() {
             </p>
             
             <p className={styles.paragraph}>
-              Once inside, the system protects humans from their own worse instincts by removing:
+              Once inside, the system protects humans from their own worst instincts by removing:
             </p>
             
             <ul className={styles.bulletList}>
@@ -78,7 +118,7 @@ export default function Rules() {
             <h2 className={styles.sectionTitle}>Why Previous Bear Market Obfuscating Financial Architectures Failed</h2>
             
             <p className={styles.paragraph}>
-              Every failed monetary invention created to eliminate (or limit) investment losses were human dependent:
+              Every failed monetary invention created to eliminate (or limit) investment losses was human dependent:
             </p>
             
             <ul className={styles.bulletList}>

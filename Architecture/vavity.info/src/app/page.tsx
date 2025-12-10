@@ -1,59 +1,122 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
+import { useEffect, useState } from 'react'
 import styles from './page.module.css'
 
 export default function Home() {
+  const [showModal, setShowModal] = useState(true)
+  const [isClosing, setIsClosing] = useState(false)
+  const [iconClosing, setIconClosing] = useState(false)
+
+  useEffect(() => {
+    const iconFadeOutTimer = setTimeout(() => {
+      setIconClosing(true)
+    }, 500)
+
+    const fadeOutTimer = setTimeout(() => {
+      setIsClosing(true)
+    }, 1000)
+
+    const closeTimer = setTimeout(() => {
+      setShowModal(false)
+    }, 2000)
+
+    return () => {
+      clearTimeout(iconFadeOutTimer)
+      clearTimeout(fadeOutTimer)
+      clearTimeout(closeTimer)
+    }
+  }, [])
+
   return (
     <div className={styles.page}>
+      {showModal && (
+        <div className={`${styles.modal} ${isClosing ? styles.modalClosing : ''}`}>
+          <div className={styles.modalContent}>
+            <Image
+              src="/images/Vavity-Icon-Ivory.png"
+              alt="Vavity Icon"
+              width={40}
+              height={40}
+              className={`${styles.modalIcon} ${iconClosing ? styles.modalIconClosing : ''}`}
+            />
+          </div>
+        </div>
+      )}
       <main className={styles.main}>
         <div className={styles.container}>
           <div className={styles.logoPlaceholder}>
             <Image
               src="/images/Vavity-Icon-Ivory.png"
               alt="Vavity Icon"
-              width={200}
-              height={100}
+              width={60}
+              height={60}
               className={styles.logoImage}
             />
           </div>
           
           <h1 className={styles.title}>VAVITY</h1>
           
-          <p className={styles.description}>
-            <strong>An autonomous financial system that anchors asset prices before they fall.</strong>
-          </p>
-          
-          <ul className={styles.list}>
-            <li>This is accomplished by removing human psychology from financial systems.</li>
-          </ul>
-          
-          <p className={styles.paragraph}>
-            Bear markets are a human psychology issue, not a technical issue, so Vavity solves loss aversion psychologically through technical autonomy. By eliminating bear markets, Vavity introduces a new kind of marketplace and market dynamics:
-          </p>
-          
-          <div className={styles.marketplaceSection}>
-            <div className={styles.logoPlaceholder}>
-              {/* Placeholder for Solid Marketplace logo */}
-              <div className={styles.logoBox}>Solid Marketplace Logo</div>
-            </div>
-            <p className={styles.marketplaceItem}>
-              <strong>Solid Marketplace:</strong> a marketplace in which investments either stagnate or increase.
+          <div className={styles.contentSection}>
+            <p className={styles.description}>
+              <strong>An autonomous financial system that anchors asset prices before they fall.</strong>
             </p>
-          </div>
-          
-          <div className={styles.marketplaceSection}>
-            <div className={styles.logoPlaceholder}>
-              <Image
-                src="/images/Sloth.png"
-                alt="Sloth Market Logo"
-                width={200}
-                height={100}
-                className={styles.logoImage}
-              />
-            </div>
-            <p className={styles.marketplaceItem}>
-              <strong>Sloth Market:</strong> a market in which investments stagnate.
+            
+            <p className={styles.psychologyText}>
+              This is accomplished by removing human psychology from financial systems.
             </p>
+            
+            <div className={styles.marketplaceContent}>
+              <p className={styles.psychologyText}>
+                Bear markets are a human psychology issue, not a technical issue, so Vavity solves loss aversion psychologically through technical autonomy. By eliminating bear markets, Vavity introduces a new kind of marketplace and market dynamics:
+              </p>
+              
+              <div className={styles.marketplaceSection}>
+                <div className={styles.logoPlaceholder}>
+                  <Image
+                    src="/images/SolidMarket.png"
+                    alt="Solid Marketplace Logo"
+                    width={60}
+                    height={60}
+                    className={styles.solidMarketplaceLogo}
+                  />
+                </div>
+                <div className={styles.marketplaceItemContainer}>
+                  <p className={styles.marketplaceLabel}>
+                    <strong>Solid Marketplace:</strong>
+                  </p>
+                  <p className={styles.psychologyText}>
+                    a marketplace in which investments either stagnate or increase.
+                  </p>
+                </div>
+              </div>
+              
+              <div className={styles.marketplaceSection}>
+                <div className={styles.logoPlaceholder}>
+                  <Image
+                    src="/images/Sloth.png"
+                    alt="Sloth Market Logo"
+                    width={40}
+                    height={40}
+                    className={styles.slothMarketplaceLogo}
+                  />
+                </div>
+                <div className={styles.marketplaceItemContainer}>
+                  <p className={styles.marketplaceLabel}>
+                    <strong>Sloth Market:</strong>
+                  </p>
+                  <p className={styles.psychologyText}>
+                    a market in which investments stagnate.
+                  </p>
+                </div>
+              </div>
+
+              <p className={styles.psychologyText}>
+                Just like the invention of clocks and calendars, Vavity is both a psychological and technological invention.
+              </p>
+            </div>
           </div>
           
           <div className={styles.actions}>

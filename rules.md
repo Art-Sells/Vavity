@@ -1,6 +1,6 @@
 # Rules of Vavity
 
-- **The autonomous system handle the rules, not humans.**
+- **The autonomous system handles the rules, not humans.**
 
 ## Vavity's Autonomous Protections
 
@@ -35,7 +35,7 @@ prevents:
 
 ## Why Previous Bear Market Obfuscating Financial Architectures Failed
 
-Every failed monetary invention created to eliminate (or limit) investment losses were human dependent:
+Every failed monetary invention created to eliminate (or limit) investment losses was human dependent:
 
 - human trust → issuance → risk
 - human hype → exposure → greater collapse potential
