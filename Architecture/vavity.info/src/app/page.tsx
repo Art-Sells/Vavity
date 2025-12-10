@@ -121,11 +121,11 @@ export default function Home() {
           
           <div className={styles.actions}>
             <Link href="/rules" className={styles.readMoreButton}>
-              Read More
+              View Rules
             </Link>
             
             <Link 
-              href="https://github.com/Art-Sells/Vavity" 
+              href="https://github.com/Art-Sells/Vavity/tree/main/Architecture" 
               target="_blank" 
               rel="noopener noreferrer"
               className={styles.githubLink}

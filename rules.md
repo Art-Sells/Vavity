@@ -2,7 +2,7 @@
 
 - **The autonomous system handles the rules, not humans.**
 
-## Vavity's Autonomous Protections
+## Autonomous Protections
 
 We don't control the environment, alter the system or introduce volatility thus our panic doesn't affect others.
 

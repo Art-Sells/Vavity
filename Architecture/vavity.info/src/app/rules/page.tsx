@@ -64,7 +64,7 @@ export default function Rules() {
           </p>
           
           <section className={styles.section}>
-            <h2 className={styles.sectionTitle}>Vavity's Autonomous Protections</h2>
+            <h2 className={styles.sectionTitle}>Autonomous Protections</h2>
             
             <p className={styles.paragraph}>
               Humans don't control the environment, alter the system or introduce volatility so panic doesn't affect others.
