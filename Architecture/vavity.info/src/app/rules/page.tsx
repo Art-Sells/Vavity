@@ -50,8 +50,8 @@ export default function Rules() {
           <Image
             src="/images/Vavity-Icon-Ivory.png"
             alt="Back to Home"
-            width={40}
-            height={40}
+            width={60}
+            height={60}
             className={styles.backIcon}
           />
         </Link>
@@ -115,7 +115,7 @@ export default function Rules() {
           </section>
           
           <section className={styles.section}>
-            <h2 className={styles.sectionTitle}>Why Previous Bear Market Obfuscating Financial Architectures Failed</h2>
+            <h2 className={`${styles.sectionTitle} ${styles.longTitle}`}>Why Previous Bear Market Obfuscating Financial Architectures Failed</h2>
             
             <p className={styles.paragraph}>
               Every failed monetary invention created to eliminate (or limit) investment losses was human dependent:
@@ -139,7 +139,7 @@ export default function Rules() {
         
         <div className={styles.actions}>
           <Link 
-            href="https://github.com/Art-Sells/Vavity" 
+            href="https://github.com/Art-Sells/Vavity/tree/main/Architecture" 
             target="_blank" 
             rel="noopener noreferrer"
             className={styles.githubLink}
