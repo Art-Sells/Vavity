@@ -1,4 +1,6 @@
-# Version 1
+# Architecture
+
+*Version 1*
 
 ## Terminologies:
 
