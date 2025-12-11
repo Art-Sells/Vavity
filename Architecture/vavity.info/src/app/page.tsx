@@ -61,16 +61,12 @@ export default function Home() {
           
           <div className={styles.contentSection}>
             <p className={styles.description}>
-              <strong>An autonomous financial system that anchors asset prices before they fall.</strong>
-            </p>
-            
-            <p className={styles.psychologyText}>
-              This is accomplished by removing human psychology from financial systems.
+              An autonomous financial system that psychologically anchors asset prices before they fall.
             </p>
             
             <div className={styles.marketplaceContent}>
               <p className={styles.psychologyText}>
-                Bear markets are a human psychology issue, not a technical issue, so Vavity solves loss aversion psychologically through technical autonomy. By eliminating bear markets, Vavity introduces a new kind of marketplace and market dynamics:
+                Bear markets are a human psychology issue, so Vavity solves loss aversion psychologically through technical autonomy. By eliminating bear markets within its financial system, Vavity introduces a new kind of marketplace and market dynamics:
               </p>
               
               <div className={styles.marketplaceSection}>

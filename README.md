@@ -2,11 +2,9 @@
 
 ## VAVITY
 
-**An autonomous financial system that anchors asset prices before they fall.**
+**An autonomous financial system that psychologically anchors asset prices before they fall.**
 
-- This is accomplished by removing human psychology from financial systems.
-
-Bear markets are a human psychology issue, not a technical issue, so Vavity solves loss aversion psychologically through technical autonomy. By eliminating bear markets, Vavity introduces a new kind of marketplace and market dynamics:
+Bear markets are a human psychology issue, so Vavity solves loss aversion psychologically through technical autonomy. By eliminating bear markets within its financial system, Vavity introduces a new kind of marketplace and market dynamics:
 
 - **Solid Marketplace:** a marketplace in which investments either stagnate or increase.
 - **Sloth Market:** a market in which investments stagnate.

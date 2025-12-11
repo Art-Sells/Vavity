@@ -88,16 +88,22 @@
 .description {
   font-size: calc(0.9rem - 1px);
   margin-top: 35px;
-  margin-bottom: 1rem;
+  margin-bottom: 35px;
   text-align: center;
-  color: #FFFFFF !important;
+  color: #C0C0C0 !important;
   max-width: 250px;
   margin-left: auto;
   margin-right: auto;
 }
 
+@media (min-width: 701px) {
+  .description {
+    max-width: 350px;
+  }
+}
+
 .description strong {
-  color: #FFFFFF !important;
+  color: #C0C0C0 !important;
 }
 
 .psychologyText {

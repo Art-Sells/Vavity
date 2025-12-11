@@ -1,10 +1,6 @@
-# Vavity (version 1)
+# Version 1
 
-If you import your investment asset at an external asset price per token at $60k (for example), Vavity autonomously anchors your investment at that price (should the asset price decline) ensuring your investments are bear-market immune. And should the asset price increase, Vavity's anchored pricing system (VAPA) lifts so you ride profits on upswings and protect those profits during downswings.
-
-***With Vavity, you set your investments and forget them (without worrying about bear-market losses).***
-
-## Aggregator Terminologies:
+## Terminologies:
 
 **VAPA** = Valued Asset Price Anchored
 
@@ -101,3 +97,9 @@ If you import your investment asset at an external asset price per token at $60k
       - `acdVatoi` = $97 ($97 + $0)
       - `acVact` = $1,523 ($1,263 + $260)
       - `acVactTaa` = 0.02344 (0.01944 + 0.004)
+
+## In a Nutshell:
+
+If you import your investment asset at an external asset price per token at $60k (for example), Vavity autonomously anchors your investment at that price (should the asset price decline) ensuring your investments are bear-market immune. And should the asset price increase, Vavity's anchored pricing system (VAPA) lifts so you ride profits on upswings and protect those profits during downswings.
+
+***With Vavity, you set your investments and forget them (without worrying about bear-market losses).***
