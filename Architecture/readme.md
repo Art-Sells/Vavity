@@ -11,7 +11,7 @@
 **Vatoi** = Value At Time Of Import
 
 - `cVatoi`: Value of the asset investment at the time of import.
-- `cpVatoi`: Asset price at the time of import.
+- `cpVatoi`: VAPA at the time of import.
 - `cdVatoi`: Difference between `cVact` and `cVatoi`: `cdVatoi = cVact - cVatoi`.
 - `acVatoi`: Combination of all the `cVatoi`s.
 - `acdVatoi`: Combination of all the `cdVatoi`s.
