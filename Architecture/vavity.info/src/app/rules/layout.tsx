@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "The Rules of Vavity",
-  description: "Learn how Vavity's autonomous financial system anchors asset prices before they fall. Discover autonomous protections, self-limiting mechanisms, and how it eliminates bear markets through technical autonomy.",
+  description: "Learn how Vavity's autonomous financial system psychologically anchors asset prices before they fall. Discover autonomous protections, self-limiting mechanisms, and how it eliminates bear markets through technical autonomy.",
   keywords: "Vavity rules, autonomous financial system, bear markets, financial protections, price anchoring",
   authors: [{ name: "Vavity" }],
   creator: "Vavity",
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "The Rules of Vavity",
-    description: "Learn how Vavity's autonomous financial system anchors asset prices before they fall. Discover autonomous protections and self-limiting mechanisms.",
+    description: "Learn how Vavity's autonomous financial system psychologically anchors asset prices before they fall. Discover autonomous protections and self-limiting mechanisms.",
     url: "https://vavity.info/rules",
     siteName: "Vavity",
     images: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "The Rules of Vavity",
-    description: "Learn how Vavity's autonomous financial system anchors asset prices before they fall.",
+    description: "Learn how Vavity's autonomous financial system psychologically anchors asset prices before they fall.",
     images: ["https://vavity.s3.us-east-1.amazonaws.com/Banner.jpg"],
   },
   robots: {
@@ -54,7 +54,7 @@ export default function RulesLayout({
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "The Rules of Vavity",
-    "description": "Learn how Vavity's autonomous financial system anchors asset prices before they fall",
+    "description": "Learn how Vavity's autonomous financial system psychologically anchors asset prices before they fall",
     "url": "https://vavity.info/rules",
     "isPartOf": {
       "@type": "WebSite",
