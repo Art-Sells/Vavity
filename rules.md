@@ -1,4 +1,4 @@
-# Rules of Vavity
+# Rules
 
 - **The autonomous system handles the rules, not humans.**
 
