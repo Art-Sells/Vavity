@@ -2,7 +2,9 @@
 
 ## VAVITY
 
-**An autonomous financial system that psychologically anchors asset prices before they fall.**
+**An autonomous financial system that emotionally protects our investments from bear market losses.**
+
+- This is accomplished by anchoring asset prices before they fall.
 
 Bear markets are a human psychology issue, so Vavity solves loss aversion psychologically through technical autonomy. By eliminating bear markets within its financial system, Vavity introduces a new kind of marketplace and market dynamics:
 

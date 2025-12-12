@@ -57,7 +57,7 @@ export default function Rules() {
         </Link>
         
         <div className={styles.contentWrapper}>
-          <h1 className={styles.title}>The Rules of Vavity</h1>
+          <h1 className={styles.title}>Rules</h1>
           
           <p className={styles.paragraph}>
             The autonomous system handles the rules, not humans.
