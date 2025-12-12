@@ -6,7 +6,7 @@
 
 **VAPA** = Valued Asset Price Anchored
 
-- The highest valued asset price anchored. Defaults to external price if no assets exist.
+- The highest valued asset price anchored.
 
 **Vatoi** = Value At Time Of Import
 
