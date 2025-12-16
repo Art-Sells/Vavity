@@ -6,7 +6,11 @@
 
 **VAPA** = Valued Asset Price Anchored
 
-- The highest valued asset price anchored. Defaults to external price if no assets exist.
+- The highest valued asset price anchored.
+
+**VAPAA** = Valued Asset Price Anchored Asset
+
+- The highest valued asset price anchored asset.
 
 **Vatoi** = Value At Time Of Import
 
@@ -33,6 +37,7 @@
 - **Action:** $500 worth of the external asset investment imported.
 - **Results:**
   - **VAPA** = $60,000.
+  - **VAPAA** = Any
     - Wallet 1:
       - `cVatoi` = $500, `cpVatoi` = $60,000, `cVact` = $500, `cpVact` = $60,000.
       - `cVactTaa` = 0.00833 Tokens `cdVatoi` = $0.
@@ -47,6 +52,7 @@
 - **Action:** $600 worth of the external asset investment imported.
 - **Results:**
   - **VAPA** = $60,000.
+  - **VAPAA** = Any
     - Wallet 1:
       - `cVatoi` = $1,166, `cpVatoi` = $60,000, `cVact` = $1,166, `cpVact` = $60,000.
       - `cVactTaa` = 0.01944, `cdVatoi` = $0.
@@ -61,6 +67,7 @@
 
 - **Results:**
   - **VAPA** = $65,000.
+  - **VAPAA** = Any
     - Wallet 1:
       - `cVatoi` = $1,166, `cpVatoi` = $60,000, `cVact` = $1,263, `cpVact` = $65,000.
       - `cVactTaa` = 0.01944, `cdVatoi` = $97.
@@ -74,6 +81,7 @@
 
 - **Results:**
   - **VAPA** = $65,000.
+  - **VAPAA** = Any
     - Wallet 1:
       - `cVatoi` = $1,166, `cpVatoi` = $60,000, `cVact` = $1,263, `cpVact` = $65,000.
       - `cVactTaa` = 0.01944, `cdVatoi` = $97.
@@ -88,6 +96,7 @@
 - **Action:** New Wallet created and $200 worth of the external asset investment imported.
 - **Results:**
   - **VAPA** = $65,000.
+  - **VAPAA** = Any
     - Wallet 1:
       - `cVatoi` = $1,166, `cpVatoi` = $60,000, `cVact` = $1,263, `cpVact` = $65,000.
       - `cVactTaa` = 0.01944, `cdVatoi` = $97.
