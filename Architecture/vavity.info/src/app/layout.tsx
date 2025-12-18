@@ -9,7 +9,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Vavity - Virtual Autonomous Volatility Immunizing Tethering Yielder",
-  description: "An autonomous financial system that ensures emotional protection from bear market losses.",
+  description: "An autonomous financial system that ensures protection from bear market losses.",
   keywords: "Vavity, autonomous financial system, bear markets, asset prices, financial technology, DeFi, cryptocurrency, blockchain, price anchoring",
   authors: [{ name: "Vavity" }],
   creator: "Vavity",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Vavity - Virtual Autonomous Volatility Immunizing Tethering Yielder",
-    description: "An autonomous financial system that ensures emotional protection from bear market losses.",
+    description: "An autonomous financial system that ensures protection from bear market losses.",
     url: "https://vavity.info",
     siteName: "Vavity",
     images: [
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Vavity - Virtual Autonomous Volatility Immunizing Tethering Yielder",
-    description: "An autonomous financial system that ensures emotional protection from bear market losses.",
+    description: "An autonomous financial system that ensures protection from bear market losses.",
     images: ["https://vavity.s3.us-east-1.amazonaws.com/Banner.jpg"],
   },
   robots: {
@@ -68,7 +68,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Vavity",
-    "description": "An autonomous financial system that ensures emotional protection from bear market losses.",
+    "description": "An autonomous financial system that ensures protection from bear market losses.",
     "url": "https://vavity.info",
     "logo": "https://vavity.info/images/Vavity-Icon-Ivory.png",
     "sameAs": [
