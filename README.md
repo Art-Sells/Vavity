@@ -2,7 +2,7 @@
 
 ## VAVITY
 
-**An autonomous financial system that emotionally protects our investments from bear market losses.**
+**An autonomous financial system that protects our investments from bear market losses.**
 
 - This is accomplished by anchoring asset prices before they fall.
 
