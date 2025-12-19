@@ -61,11 +61,7 @@ export default function Home() {
           
           <div className={styles.contentSection}>
             <p className={styles.description}>
-              An autonomous financial system that protects our emotions from bear market losses.
-            </p>
-
-            <p className={styles.psychologyText}>
-              This is accomplished by anchoring asset prices before they fall.
+            An internal pricing mechanism that anchors asset prices before they fall.
             </p>
             
             <div className={styles.marketplaceContent}>

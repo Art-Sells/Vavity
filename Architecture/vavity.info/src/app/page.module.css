@@ -87,19 +87,19 @@
 
 .description {
   font-size: 0.75rem;
-  line-height: 1.4;
+  line-height: 1.7;
   margin-top: 35px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   text-align: center;
   color: #FFFFFF !important;
-  max-width: 250px;
+  max-width: 220px;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media (min-width: 701px) {
   .description {
-    max-width: 300px;
+    max-width: none;
   }
 }
 
