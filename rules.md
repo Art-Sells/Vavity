@@ -4,7 +4,7 @@
 
 ## Autonomous Protections
 
-We don't control the environment, alter the system or introduce volatility thus our panic doesn't affect others.
+We don't control the environment, alter the system, or introduce volatility, thus our panic doesn't affect others.
 
 Our only contribution is: **deciding whether to enter or wait.**
 

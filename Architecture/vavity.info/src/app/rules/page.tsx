@@ -67,7 +67,7 @@ export default function Rules() {
             <h2 className={styles.sectionTitle}>Autonomous Protections</h2>
             
             <p className={styles.paragraph}>
-              Humans don't control the environment, alter the system or introduce volatility so panic doesn't affect others.
+              Humans don't control the environment, alter the system, or introduce volatility, so panic doesn't affect others.
             </p>
             
             <p className={styles.paragraph}>
