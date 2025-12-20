@@ -9,7 +9,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Vavity - Virtual Autonomous Volatility Immunizing Tethering Yielder",
-  description: "An internal pricing mechanism that anchors asset prices before they fall.",
+  description: "An autonomous pricing system that anchors asset prices before they fall.",
   keywords: "Vavity, autonomous financial system, bear markets, asset prices, financial technology, DeFi, cryptocurrency, blockchain, price anchoring",
   authors: [{ name: "Vavity" }],
   creator: "Vavity",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Vavity - Virtual Autonomous Volatility Immunizing Tethering Yielder",
-    description: "An internal pricing mechanism that anchors asset prices before they fall.",
+    description: "An autonomous pricing system that anchors asset prices before they fall.",
     url: "https://vavity.info",
     siteName: "Vavity",
     images: [
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
         url: "https://vavity.s3.us-east-1.amazonaws.com/Banner.jpg",
         width: 1200,
         height: 630,
-        alt: "Vavity - An internal pricing mechanism that anchors asset prices before they fall.",
+        alt: "Vavity - An autonomous pricing system that anchors asset prices before they fall.",
       },
     ],
     locale: "en_US",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Vavity - Virtual Autonomous Volatility Immunizing Tethering Yielder",
-    description: "An internal pricing mechanism that anchors asset prices before they fall.",
+    description: "An autonomous pricing system that anchors asset prices before they fall.",
     images: ["https://vavity.s3.us-east-1.amazonaws.com/Banner.jpg"],
   },
   robots: {
@@ -68,7 +68,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Vavity",
-    "description": "An internal pricing mechanism that anchors asset prices before they fall.",
+    "description": "An autonomous pricing system that anchors asset prices before they fall.",
     "url": "https://vavity.info",
     "logo": "https://vavity.info/images/Vavity-Icon-Ivory.png",
     "sameAs": [

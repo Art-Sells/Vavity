@@ -61,7 +61,7 @@ export default function Home() {
           
           <div className={styles.contentSection}>
             <p className={styles.description}>
-            An internal pricing mechanism that anchors asset prices before they fall.
+            An autonomous pricing system that anchors asset prices before they fall.
             </p>
             
             <div className={styles.marketplaceContent}>

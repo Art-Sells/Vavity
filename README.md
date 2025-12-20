@@ -2,7 +2,7 @@
 
 ## VAVITY
 
-**An internal pricing mechanism that anchors asset prices before they fall.**
+**An autonomous pricing system that anchors asset prices before they fall.**
 
 Bear markets are a human psychology issue, so Vavity solves loss aversion psychologically through technical autonomy. By eliminating bear markets within its financial system, Vavity introduces a new kind of marketplace and market dynamics:
 
