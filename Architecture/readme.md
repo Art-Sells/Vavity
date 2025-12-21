@@ -19,6 +19,11 @@
 - `cdVatoc`: Difference between `cVact` and `cVatoc`: `cdVatoc = cVact - cVatoc`.
 - `acVatoc`: Combination of all the `cVatoc`s.
 - `acdVatoc`: Combination of all the `cdVatoc`s.
+- `cVatoi`: Value of the asset investment at the time of import.
+- `cpVatoi`: VAPA at the time of import.
+- `cdVatoi`: Difference between `cVact` and `cVatoi`: `cdVatoi = cVact - cVatoi`.
+- `acVatoi`: Combination of all the `cVatoi`s.
+- `acdVatoi`: Combination of all the `cdVatoi`s.
 
 **Vact** = Value At Current Time
 
