@@ -8,9 +8,9 @@
 
 - The highest valued asset price anchored.
 
-**VAPAA** = Valued Asset Price Anchored Asset
+**VAPAA** = Valued Asset Price Anchored Address
 
-- The highest valued asset price anchored address
+- The valued asset price anchored address
 
 **Vatoc** = Value At Time Of Connection
 
