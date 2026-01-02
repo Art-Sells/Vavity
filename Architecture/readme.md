@@ -14,7 +14,7 @@
 
 **Vatoc** = Value At Time Of Connection
 
-- `cVatoc`: Value of the asset investment at the time of connection.
+- `cVatoc`: Value of the asset investment at the time of connection. `cVatoc` = `cVactTaa`*`cpVatoc`
 - `cpVatoc`: VAPA at the time of connection.
 - `cdVatoc`: Difference between `cVact` and `cVatoc`: `cdVatoc = cVact - cVatoc`.
 - `acVatoc`: Combination of all the `cVatoc`s.
