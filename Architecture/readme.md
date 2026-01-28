@@ -1,29 +1,21 @@
-# Architecture
-
-*Version 1*
-
 ## Terminologies:
 
 **VAPA** = Valued Asset Price Anchored
 
 - The highest valued asset price anchored.
 
-**VAPAA** = Valued Asset Price Anchored Address
+**Vatop** = Value At Time Of purchase
 
-- The valued asset price anchored address
-
-**Vatoc** = Value At Time Of Connection
-
-- `cVatoc`: Value of the asset investment at the time of connection. `cVatoc` = `cVactTaa`*`cpVatoc`
-- `cpVatoc`: VAPA at the time of connection.
-- `cdVatoc`: Difference between `cVact` and `cVatoc`: `cdVatoc = cVact - cVatoc`.
-- `acVatoc`: Combination of all the `cVatoc`s.
-- `acdVatoc`: Combination of all the `cdVatoc`s.
+- `cVatop`: Value of the asset investment at the time of purchase.
+- `cpVatop`: VAPA at the time of purchase.
+- `cdVatop`: Difference between `cVact` and `cVatop`: `cdVatop = cVact - cVatop`.
+- `acVatop`: Combination of all the `cVatop`s.
+- `acdVatop`: Combination of all the `cdVatop`s.
 
 **Vact** = Value At Current Time
 
-- `cVact`: Current value of the asset investment, which starts as `cVatoc` and increases as `cpVact` grows. `cVact` = `cVactTaa`*`cpVact`.
-- `cpVact`: Current price of the asset; begins as `cpVatoc` and adjusts based on the highest asset price observed (VAPA).
+- `cVact`: Current value of the asset investment, which starts as `cVatop` and increases as `cpVact` grows. `cVact` = `cVactTaa`*`cpVact`.
+- `cpVact`: Current price of the asset; begins as `cpVatop` and adjusts based on the highest asset price observed (VAPA).
 - `cVactTaa`: Token amount of the asset available.
 - `acVact`: Combination of all `cVact`s.
 - `acVactTaa`: Combination of all `cVactTaa`s.
@@ -34,89 +26,77 @@
 
 ### 1. External asset price: $60,000
 
-- **Action:** $500 worth of the external asset investment connected.
+- **Action:** $500 worth of the external asset investment purchased.
 - **Results:**
   - **VAPA** = $60,000.
-    - Wallet 1:
-      - `VAPAA` = 1
-        - `cVatoc` = $500, `cpVatoc` = $60,000, `cVact` = $500, `cpVact` = $60,000.
-        - `cVactTaa` = 0.00833 Tokens `cdVatoc` = $0.
-    - Wallet Totals:
-      - `VAPAA` = 1
-        - `acVatoc` = $500
-        - `acdVatoc` = $0
-        - `acVact` = $500
-        - `acVactTaa` = 0.00833
+    - Purchase 1:
+      - `cVatop` = $500, `cpVatop` = $60,000, `cVact` = $500, `cpVact` = $60,000.
+      - `cVactTaa` = 0.00833 Tokens `cdVatop` = $0.
+    - Purchase Totals:
+      - `acVatop` = $500
+      - `acdVatop` = $0
+      - `acVact` = $500
+      - `acVactTaa` = 0.00833
 
 ### 2. External asset price falls: $54,000
 
-- **Action:** $600 worth of the external asset investment connected.
+- **Action:** $600 worth of the external asset investment purchased.
 - **Results:**
   - **VAPA** = $60,000.
-    - Wallet 1:
-      - `VAPAA` = 1
-        - `cVatoc` = $1,166, `cpVatoc` = $60,000, `cVact` = $1,166, `cpVact` = $60,000.
-        - `cVactTaa` = 0.01944, `cdVatoc` = $0.
-    - Wallet Totals:
-      - `VAPAA` = 1
-        - `acVatoc` = $1,166
-        - `acdVatoc` = $0
-        - `acVact` = $1,166
-        - `acVactTaa` = 0.01944
-
+    - Purchase 1:
+      - `cVatop` = $1,166, `cpVatop` = $60,000, `cVact` = $1,166, `cpVact` = $60,000.
+      - `cVactTaa` = 0.01944, `cdVatop` = $0.
+    - Purchase Totals:
+      - `acVatop` = $1,166
+      - `acdVatop` = $0
+      - `acVact` = $1,166
+      - `acVactTaa` = 0.01944
 
 ### 3. External asset price rises: $65,000
 
 - **Results:**
   - **VAPA** = $65,000.
-    - Wallet 1:
-      - `VAPAA` = 1
-        - `cVatoc` = $1,166, `cpVatoc` = $60,000, `cVact` = $1,263, `cpVact` = $65,000.
-        - `cVactTaa` = 0.01944, `cdVatoc` = $97.
-    - Wallet Totals:
-      - `VAPAA` = 1
-        - `acVatoc` = $1,166
-        - `acdVatoc` = $97
-        - `acVact` = $1,263
-        - `acVactTaa` = 0.01944
+    - Purchase 1:
+      - `cVatop` = $1,166, `cpVatop` = $60,000, `cVact` = $1,263, `cpVact` = $65,000.
+      - `cVactTaa` = 0.01944, `cdVatop` = $97.
+    - Purchase Totals:
+      - `acVatop` = $1,166
+      - `acdVatop` = $97
+      - `acVact` = $1,263
+      - `acVactTaa` = 0.01944
 
 ### 4. External asset price falls: $63,000
 
 - **Results:**
   - **VAPA** = $65,000.
-    - Wallet 1:
-      - `VAPAA` = 1
-        - `cVatoc` = $1,166, `cpVatoc` = $60,000, `cVact` = $1,263, `cpVact` = $65,000.
-        - `cVactTaa` = 0.01944, `cdVatoc` = $97.
-    - Wallet Totals:
-      - `VAPAA` = 1
-        - `acVatoc` = $1,166
-        - `acdVatoc` = $97
-        - `acVact` = $1,263
-        - `acVactTaa` = 0.01944
+    - Purchase 1:
+      - `cVatop` = $1,166, `cpVatop` = $60,000, `cVact` = $1,263, `cpVact` = $65,000.
+      - `cVactTaa` = 0.01944, `cdVatop` = $97.
+    - Purchase Totals:
+      - `acVatop` = $1,166
+      - `acdVatop` = $97
+      - `acVact` = $1,263
+      - `acVactTaa` = 0.01944
 
 ### 5. External asset price falls: $50,000
 
-- **Action:** New Wallet created and $200 worth of the external asset investment connected.
+- **Action:** $200 worth of the external asset investment purchased.
 - **Results:**
   - **VAPA** = $65,000.
-    - Wallet 1:
-      - `VAPAA` = 1
-        - `cVatoc` = $1,166, `cpVatoc` = $60,000, `cVact` = $1,263, `cpVact` = $65,000.
-        - `cVactTaa` = 0.01944, `cdVatoc` = $97.
-    - Wallet 2:
-      - `VAPAA` = 1
-        - `cVatoc` = $260, `cpVatoc` = $65,000, `cVact` = $260, `cpVact` = $65,000.
-        - `cVactTaa` = 0.004, `cdVatoc` = $0.
-    - Wallet Totals:
-      - `VAPAA` = 1
-        - `acVatoc` = $1,426 ($1,166 + $260)
-        - `acdVatoc` = $97 ($97 + $0)
-        - `acVact` = $1,523 ($1,263 + $260)
-        - `acVactTaa` = 0.02344 (0.01944 + 0.004)
+    - Purchase 1:
+      - `cVatop` = $1,166, `cpVatop` = $60,000, `cVact` = $1,263, `cpVact` = $65,000.
+      - `cVactTaa` = 0.01944, `cdVatop` = $97.
+    - Purchase 2:
+      - `cVatop` = $260, `cpVatop` = $65,000, `cVact` = $260, `cpVact` = $65,000.
+      - `cVactTaa` = 0.004, `cdVatop` = $0.
+    - Purchase Totals:
+      - `acVatop` = $1,426 ($1,166 + $260)
+      - `acdVatop` = $97 ($97 + $0)
+      - `acVact` = $1,523 ($1,263 + $260)
+      - `acVactTaa` = 0.02344 (0.01944 + 0.004)
 
 ## In a Nutshell:
 
-If you connect your investment asset at an external asset price per token at $60k (for example), Vavity autonomously anchors your investment at that price (should the asset price decline) ensuring your investments are bear-market immune. And should the asset price increase, Vavity's anchored pricing system (VAPA) lifts so you ride profits on upswings and protect those profits during downswings.
+If you purchase your investment asset at an external asset price per token at $60k (for example), Vavity autonomously anchors your investment at that price (should the asset price decline) ensuring your investments are bear-market immune. And should the asset price increase, Vavity's anchored pricing system (VAPA) lifts so you ride profits on upswings and protect those profits during downswings.
 
 ***With Vavity, you set your investments and forget them (without worrying about bear-market losses).***
