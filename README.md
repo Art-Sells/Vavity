@@ -4,7 +4,7 @@
 
 **An autonomous pricing system that anchors asset prices before they fall.**
 
-Investment losses are a human psychology issue, so Vavity solves this psychologically through technical autonomy. By eliminating investment losses within its financial system, Vavity introduces a new kind of marketplace and market dynamics:
+Investment losses are a human psychology issue, so Vavity solves this psychologically through technical autonomy. By eliminating investment losses, Vavity introduces a new kind of marketplace and market dynamics:
 
 - **Solid Marketplace:** a marketplace in which investments either stagnate or increase.
 - **Sloth Market:** a market in which investments stagnate.
