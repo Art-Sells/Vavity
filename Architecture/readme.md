@@ -1,7 +1,3 @@
-# Architecture
-
-*Version 1*
-
 ## Terminologies:
 
 **VAPA** = Valued Asset Price Anchored
