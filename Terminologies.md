@@ -31,7 +31,7 @@
   - **VAPA** = $60,000.
     - Purchase 1:
       - `cVatop` = $500, `cpVatop` = $60,000, `cVact` = $500, `cpVact` = $60,000.
-      - `cVactTaa` = 0.00833 Tokens `cdVatop` = $0.
+      - `cVactTaa` = 0.00833 Tokens, `cdVatop` = $0.
     - Purchase Totals:
       - `acVatop` = $500
       - `acdVatop` = $0
