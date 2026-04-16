@@ -4,7 +4,7 @@
 
 - The highest valued asset price anchored.
 
-**Vatop** = Value At Time Of purchase
+**Vatop** = Value At Time Of Purchase
 
 - `cVatop`: Value of the asset investment at the time of purchase.
 - `cpVatop`: VAPA at the time of purchase.
