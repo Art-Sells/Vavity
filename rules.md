@@ -35,10 +35,10 @@ prevents:
 
 ## Why Previous Bear Market Obfuscating Financial Architectures Failed
 
-Every failed monetary invention created to eliminate (or limit) investment losses was human dependent:
+Every failed monetary invention created to eliminate (or limit) investment losses were human and gravity dependent:
 
 - human trust → issuance → risk
-- human hype → exposure → greater collapse potential
+- gravity → falling → loss as default
 
 Vavity is:
 
@@ -46,3 +46,4 @@ Vavity is:
 - **bounded** — prices cannot exceed external reference or fall below imports
 - **self-limiting** — no endogenous loops that spiral out of control
 - **non-manipulable** — irrational behavior cannot damage the architecture
+- **gravity-independent** - free from the constraints of falling
