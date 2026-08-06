@@ -35,7 +35,7 @@ prevents:
 
 ## Why Previous Bear Market Obfuscating Financial Architectures Failed
 
-Every failed monetary invention created to eliminate (or limit) investment losses were human and gravity dependent:
+Every failed monetary invention created to eliminate (or limit) investment losses was human and gravity dependent:
 
 - human trust → issuance → risk
 - gravity → falling → loss as default
