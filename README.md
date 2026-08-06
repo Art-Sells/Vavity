@@ -11,4 +11,5 @@ By eliminating value loss, Vavity introduces a new kind of marketplace and marke
 
 <img src="https://github.com/Art-Sells/Arells/blob/test/Art/Marketing/BeforeandAfterArellss.png" width="500px"> 
 
-Just like the invention of clocks and calendars, Vavity is both a psychological and technological invention.
+**Laying the foundations for the financial infrastructure for space.**
+In space, we are free from the constraints of falling, and with Vavity, so will finance be free from falling.
