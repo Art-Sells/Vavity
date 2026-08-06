@@ -2,7 +2,7 @@
 
 ## VAVITY
 
-**An autonomous pricing system that anchors asset prices before they fall.**
+**An anti-gravity pricing system that anchors asset prices before they fall.**
 
 By eliminating value loss, Vavity introduces a new kind of marketplace and market dynamics::
 
@@ -12,4 +12,3 @@ By eliminating value loss, Vavity introduces a new kind of marketplace and marke
 <img src="https://github.com/Art-Sells/Arells/blob/test/Art/Marketing/BeforeandAfterArellss.png" width="500px"> 
 
 **Laying the foundations for the financial infrastructure for space.**
-In space, we are free from the constraints of falling, and with Vavity, so will finance be free from falling.
